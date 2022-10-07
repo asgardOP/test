@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #opa{
+        
+    }
+    body{
+        background: rgb(199, 130, 255);
+    }
+    #ul{
+        list-style: none;
+    }
+    .choice{
+        width:30px;
+        height:30px;
+        background:rgb(16, 158, 194);
+        box-shadow:0px 0px 15px rgb(0,0,0,.4);
+        margin-top: 10px;
+        transition: 0.3s;
+    }
+    .choice:hover{
+        width:250px;
+        height: 150px;
+        border: 3px solid white;
+    }
+    .par{
+        opacity: 0%;
+        font-size: 16px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: rgb(27, 76, 99);
+        margin-bottom: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.3s;
+        transition-delay: 0s;
+        transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+    }
+    .choice:hover .par{
+        visibility: visible;
+        opacity: 100%;
+    }
+</style>
+<body>
+    <div id="opa"></div>
+    <center>
+        <ul id="ul">
+            <li><div class="choice"><p class="par">Home</p></div></li>
+            <li><div class="choice"><p class="par">Profile</p></div></li>
+            <li><div class="choice"><p class="par">About Us</p></div></li>
+            <li><div class="choice"><p class="par">Login</p></div></li>
+            <li><div class="choice"><p class="par">Sign In</p></div></li>
+        </ul>
+    </center>
+    <script>
+    </script>
+</body>
+</html>
